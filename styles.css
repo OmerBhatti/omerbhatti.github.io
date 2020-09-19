@@ -4,22 +4,20 @@ body{
     font-family: 'Trebuchet MS';
 }
 
-div{
-    margin-right:8px;
-    margin-bottom:8px;
-    border: 1px solid black;
-    width:30%;
-    float:left;
-}
-
 .firstDiv{
     background-color: red;
+    width:33%;
+    float:left;
 }
 
 .secondDiv{
     background-color: green;
+    width:33%;
+    float:left;
 }
 
 .thirdDiv{
     background-color: blue;
+    width:33%;
+    float:left;
 }
