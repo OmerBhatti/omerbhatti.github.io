@@ -5,19 +5,19 @@ body{
 }
 
 .firstDiv{
-    background-color: red;
+    background-color: rgb(212, 61, 61);
     width:33%;
     float:left;
 }
 
 .secondDiv{
-    background-color: green;
+    background-color: rgb(56, 202, 56);
     width:33%;
     float:left;
 }
 
 .thirdDiv{
-    background-color: blue;
+    background-color: rgb(51, 51, 182);
     width:33%;
     float:left;
 }
