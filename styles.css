@@ -6,6 +6,8 @@ body{
 
 div{
     margin-left: 5%;
+    /*box-Shadow: horizontal Vertical blur spread color;*/
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.589);
 }
 
 .firstDiv{
