@@ -4,20 +4,30 @@ body{
     font-family: 'Trebuchet MS';
 }
 
+div{
+    margin-left: 5%;
+}
+
 .firstDiv{
     background-color: rgb(212, 61, 61);
-    width:33%;
+    width:25%;
     float:left;
+    
+    border-Left: 3px solid  rgb(116, 0, 0);
 }
 
 .secondDiv{
     background-color: rgb(56, 202, 56);
-    width:33%;
+    width:25%;
     float:left;
+    
+    border-Left: 3px solid rgb(0, 131, 0);
 }
 
 .thirdDiv{
     background-color: rgb(51, 51, 182);
-    width:33%;
+    width:25%;
     float:left;
+    
+    border-Left: 3px solid  rgb(0, 0, 119);
 }
