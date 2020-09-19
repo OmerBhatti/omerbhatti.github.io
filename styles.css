@@ -13,7 +13,7 @@ div{
     width:25%;
     float:left;
     
-    border-Left: 3px solid  rgb(116, 0, 0);
+    border-Left: 5px solid  rgb(116, 0, 0);
 }
 
 .secondDiv{
@@ -21,7 +21,7 @@ div{
     width:25%;
     float:left;
     
-    border-Left: 3px solid rgb(0, 131, 0);
+    border-Left: 5px solid rgb(0, 131, 0);
 }
 
 .thirdDiv{
@@ -29,5 +29,5 @@ div{
     width:25%;
     float:left;
     
-    border-Left: 3px solid  rgb(0, 0, 119);
+    border-Left: 5px solid  rgb(0, 0, 119);
 }
