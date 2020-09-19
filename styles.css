@@ -28,3 +28,15 @@ div{
     float:left;    
     border-Left: 5px Dotted  rgb(255, 255, 255);
 }
+
+.firstDiv p{
+    color: rgb(255, 168, 168);
+}
+
+.secondDiv p{
+    color: rgb(189, 255, 173);
+}
+
+.thirdDiv p{
+    color: rgb(173, 185, 255);
+}
