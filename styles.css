@@ -1,14 +1,16 @@
 body{
     text-align: center;
-    color:white;
     font-family: 'Trebuchet MS';
 }
 
 div{
+    color:white;
     margin-left: 5%;
     width:25%;
     /*box-Shadow: horizontal Vertical blur spread color;*/
     box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.589);
+    /*text-Shadow: horizontal Vertical blur color;*/
+    text-shadow: 2px 2px 2px #0000008f;
 }
 
 .firstDiv{
