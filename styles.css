@@ -6,27 +6,25 @@ body{
 
 div{
     margin-left: 5%;
+    width:25%;
     /*box-Shadow: horizontal Vertical blur spread color;*/
-    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.589);
+    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.589);
 }
 
 .firstDiv{
     background-color: rgb(212, 61, 61);
-    width:25%;
     float:left;    
     border-Left: 5px solid  rgb(116, 0, 0);
 }
 
 .secondDiv{
     background-color: rgb(56, 202, 56);
-    width:25%;
     float:left;    
     border-Left: 5px Dashed rgb(0, 131, 0);
 }
 
 .thirdDiv{
     background-color: rgb(51, 51, 182);
-    width:25%;
     float:left;    
     border-Left: 5px Dotted  rgb(255, 255, 255);
 }
