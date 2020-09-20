@@ -1,44 +1,46 @@
 body{
     text-align: center;
     font-family: 'Trebuchet MS';
+    margin:0;
 }
 
-div{
-    color:white;
-    margin-left: 5%;
+Div{
+    float:left;
+    padding:10px;
+    padding:0px;
+}
+
+.Content
+{
+    background-color: rgb(213, 122, 255);
+    width:25%;   
+    height: 50%;
+}
+
+.MainBody
+{
+    background-color: rgb(122, 239, 255);
+    width:50%;
+    height: 50%;
+}
+
+.Title{
+    margin:0px;
+    background-color: rgb(100, 183, 194);
+    width: 100%;
+    padding:0px;
+}
+
+.Ads
+{
+    background-color: rgb(255, 202, 122);
     width:25%;
-    /*box-Shadow: horizontal Vertical blur spread color;*/
-    box-shadow: 4px 4px 5px 2px rgba(0, 0, 0, 0.589);
-    /*text-Shadow: horizontal Vertical blur color;*/
-    text-shadow: 2px 2px 2px #0000008f;
+    height: 50%;  
 }
 
-.firstDiv{
-    background-color: rgb(212, 61, 61);
-    float:left;    
-    border-Left: 5px solid  rgb(116, 0, 0);
-}
-
-.secondDiv{
-    background-color: rgb(56, 202, 56);
-    float:left;    
-    border-Left: 5px Dashed rgb(0, 131, 0);
-}
-
-.thirdDiv{
-    background-color: rgb(51, 51, 182);
-    float:left;    
-    border-Left: 5px Dotted  rgb(255, 255, 255);
-}
-
-.firstDiv p{
-    color: rgb(255, 168, 168);
-}
-
-.secondDiv p{
-    color: rgb(189, 255, 173);
-}
-
-.thirdDiv p{
-    color: rgb(173, 185, 255);
+.footer
+{
+    background-color: rgb(122, 255, 122);
+    width:100%;
+    height: 25%;   
 }
