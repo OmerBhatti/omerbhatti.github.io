@@ -4,6 +4,29 @@ body{
     margin:0;
 }
 
+.buttons{
+    display: flex;
+    text-decoration: none;
+}
+.buttons li{
+    padding: 10px;;
+    list-style-type: none;
+}
+
+.buttons li a{
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.Header{
+    float:left;
+    width: 50%;
+    margin: 0;
+    Padding:10px;
+    text-align: left;
+}
+
 Div{
     float:left;
     padding:10px;
@@ -13,15 +36,24 @@ Div{
 .Content
 {
     background-color: rgb(213, 122, 255);
-    width:25%;   
-    height: 50%;
+    width:30%;   
+    height: 75%;
 }
 
 .MainBody
 {
     background-color: rgb(122, 239, 255);
-    width:50%;
-    height: 50%;
+    width:50%; 
+    height: 75%;
+}
+.MainBody p{
+    padding:5px;
+}
+.Ads
+{
+    background-color: rgb(255, 202, 122);
+    width:20%; 
+    height: 75%;
 }
 
 .Title{
@@ -31,16 +63,12 @@ Div{
     padding:0px;
 }
 
-.Ads
-{
-    background-color: rgb(255, 202, 122);
-    width:25%;
-    height: 50%;  
-}
-
 .footer
 {
     background-color: rgb(122, 255, 122);
     width:100%;
     height: 25%;   
+}
+.footer h2{
+    height: 85%;
 }
