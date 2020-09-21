@@ -4,21 +4,6 @@ body{
     margin:0;
 }
 
-.buttons{
-    display: flex;
-    text-decoration: none;
-}
-.buttons li{
-    padding: 10px;;
-    list-style-type: none;
-}
-
-.buttons li a{
-    padding: 10px;
-    list-style-type: none;
-    text-decoration: none;
-}
-
 .Header{
     float:left;
     width: 50%;
