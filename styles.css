@@ -1,59 +1,24 @@
 body{
     text-align: center;
     font-family: 'Trebuchet MS';
-    margin:0;
 }
 
-.Header{
+.outer{
     float:left;
-    width: 50%;
-    margin: 0;
-    Padding:10px;
-    text-align: left;
+    border:1px black solid;
+    width: 290px;
 }
-
-Div{
+.one{
+    margin:10px;
+    border:1px black solid;
+    Width:100px;
     float:left;
-    padding:10px;
-    padding:0px;
+    padding: 10px;
 }
-
-.Content
-{
-    background-color: rgb(213, 122, 255);
-    width:30%;   
-    height: 75%;
-}
-
-.MainBody
-{
-    background-color: rgb(122, 239, 255);
-    width:50%; 
-    height: 75%;
-}
-.MainBody p{
-    padding:5px;
-}
-.Ads
-{
-    background-color: rgb(255, 202, 122);
-    width:20%; 
-    height: 75%;
-}
-
-.Title{
-    margin:0px;
-    background-color: rgb(100, 183, 194);
-    width: 100%;
-    padding:0px;
-}
-
-.footer
-{
-    background-color: rgb(122, 255, 122);
-    width:100%;
-    height: 25%;   
-}
-.footer h2{
-    height: 85%;
+.two{
+    margin:10px;
+    border:1px black solid;
+    Width:100px;
+    float:left;
+    padding: 10px;
 }
