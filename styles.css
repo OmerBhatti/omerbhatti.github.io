@@ -1,24 +1,47 @@
 body{
-    text-align: center;
+    background-color: rgb(199, 247, 219);
     font-family: 'Trebuchet MS';
+    margin:0;
 }
 
 .outer{
+    background-color: rgb(24, 24, 24);
     float:left;
-    border:1px black solid;
-    width: 290px;
+    width: 100%;
+    box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.637);
 }
-.one{
-    margin:10px;
-    border:1px black solid;
-    Width:100px;
+
+.logo{
+    Width:20%;
     float:left;
     padding: 10px;
 }
-.two{
-    margin:10px;
-    border:1px black solid;
-    Width:100px;
-    float:left;
+
+ul{
+    display: flex;
+    float: right;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+.buttons{
+    Width:73%;
+    float:Right;
     padding: 10px;
+}
+.button{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(77, 202, 224);
+    margin-left: 20px;
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.274);
+}
+.current{
+    color: rgb(255, 56, 56);
+    font-weight:bold;
 }
