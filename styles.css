@@ -1,11 +1,12 @@
 body{
-    background-color: rgb(199, 247, 219);
+    background-color: rgb(212, 246, 255);
     font-family: 'Trebuchet MS';
     margin:0;
 }
 
 .outer{
-    background-color: rgb(24, 24, 24);
+    border-top: 10px solid rgb(0, 0, 0);
+    background-color: rgb(26, 26, 26);
     float:left;
     width: 100%;
     box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.637);
@@ -14,7 +15,7 @@ body{
 .logo{
     Width:20%;
     float:left;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 ul{
@@ -29,19 +30,19 @@ ul li{
 .buttons{
     Width:73%;
     float:Right;
-    padding: 10px;
+    padding-left: 10px;
 }
 .button{
     padding: 10px;
     text-decoration: none;
-    color: rgb(77, 202, 224);
-    margin-left: 20px;
+    margin-left: 10px;
     font-weight:bold;
+    color: rgb(77, 202, 224);
 }
 
 .button:hover{
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.103);
+    background-color: rgba(0, 195, 255, 0.205);
 }
 
 .current{
