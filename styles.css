@@ -36,12 +36,14 @@ ul li{
     text-decoration: none;
     color: rgb(77, 202, 224);
     margin-left: 20px;
+    font-weight:bold;
 }
 
 .button:hover{
-    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.103);
 }
+
 .current{
-    color: rgb(255, 56, 56);
-    font-weight:bold;
+    color: rgb(255, 29, 29);
 }
