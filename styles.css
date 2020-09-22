@@ -48,3 +48,8 @@ ul li{
     color: rgb(255, 255, 255);
     border-bottom: 2px Solid rgb(255, 255, 255);
 }
+
+.Slider{
+    width:100%;
+    height:540px;
+}
