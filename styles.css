@@ -4,10 +4,11 @@ html{
 
 body{
     background-color: rgb(26, 26, 26);
-    font-family: 'Trebuchet MS';
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
     color: rgb(219, 219, 219);
 }
+
 .Top{
     position: fixed;
     height: 40px;
