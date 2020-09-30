@@ -1,224 +1,287 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    background-color: rgb(26, 26, 26);
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-    color: rgb(219, 219, 219);
+body {
+  background-color: rgb(26, 26, 26);
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  color: rgb(219, 219, 219);
 }
 
-.Top{
-    position: fixed;
-    height: 40px;
-    width:50px;
-    border-radius: 50px;
-    background-color: rgb(255, 255, 255);
-    bottom: 30px;
-    right: 30px;
-    z-index: 1000;
-    opacity: 75%;
-    padding-top: 6px;
-    text-align: center;
+.Top {
+  position: fixed;
+  height: 40px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: rgb(255, 255, 255);
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  opacity: 75%;
+  padding-top: 6px;
+  text-align: center;
 }
 
-.Top i{
-    color: rgb(0, 0, 0);
+.Top i {
+  color: rgb(0, 0, 0);
 }
 
-.outer{
-    background-color: rgb(58, 58, 58);
-    background-image: linear-gradient(180deg, rgb(46, 46, 46) 0%, rgb(22, 22, 22) 70%, rgb(14, 14, 14) 95%);
-    float:left;
-    width: 100%;
-    box-shadow: 0px 2px 5px 1px rgb(0, 0, 0);
+.outer {
+  background-color: rgb(58, 58, 58);
+  background-image: linear-gradient(
+    180deg,
+    rgb(46, 46, 46) 0%,
+    rgb(22, 22, 22) 70%,
+    rgb(14, 14, 14) 95%
+  );
+  float: left;
+  width: 100%;
+  box-shadow: 0px 2px 5px 1px rgb(0, 0, 0);
 }
 
-.logo{
-    Width:20%;
-    float:left;
-    padding-left: 10px;
+.logo {
+  width: 20%;
+  float: left;
+  padding-left: 10px;
 }
 
-ul{
-    display: flex;
-    float: right;
+ul {
+  display: flex;
+  float: right;
 }
 
-ul li{
-    list-style-type: none;
+ul li {
+  list-style-type: none;
 }
 
-.buttons{
-    Width:73%;
-    float:Right;
-    padding-left: 10px;
-    margin-right: 10px;
+.buttons {
+  width: 73%;
+  float: Right;
+  padding-left: 10px;
+  margin-right: 10px;
 }
-.button{
-    padding: 10px;
-    text-decoration: none;
-    margin-left: 10px;
-    color: rgb(185, 185, 185);
-}
-
-.button:hover{
-    color: rgb(219, 219, 219);
+.button {
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(185, 185, 185);
 }
 
-.current{
-    color: rgb(255, 255, 255);
-    border-bottom: 2px Solid rgb(255, 255, 255);
+.button:hover {
+  color: rgb(219, 219, 219);
 }
 
-.Slider{
-    width:100%;
-    height:580px;
+.current {
+  color: rgb(255, 255, 255);
+  border-bottom: 2px Solid rgb(255, 255, 255);
 }
 
-.container{
-    width: 100%;
-}
-.container .Link{
-    padding:10px;
-    padding-bottom: 15px;
-    background-color: rgba(255, 255, 255, 0.158);
-    margin-left: 10px;
-    margin-bottom: 15px;
-    width:270px;
-    word-wrap:break-word;
-    border-radius: 10px;
-    display: inline-block;
+.Slider {
+  width: 100%;
 }
 
-.Link .img{
-    margin:0;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, 0.459);
+.container {
+  width: 100%;
+}
+.container .Link {
+  padding: 10px;
+  padding-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.158);
+  margin-left: 10px;
+  margin-bottom: 15px;
+  width: 270px;
+  word-wrap: break-word;
+  border-radius: 10px;
+  display: inline-block;
 }
 
-.heading{
-    padding: 10px;
-    text-align:center;
-    background-image: linear-gradient(0deg, rgb(34, 34, 34) 0%, rgb(27, 27, 27) 30%, rgb(22, 22, 22) 95%);
+.Link .img {
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.459);
 }
 
-button{
-    padding:10px;
-    padding-left:20px;
-    padding-right:20px;
-    border:none;
-    color:rgb(223, 223, 223);
-    background-image: linear-gradient(180deg, rgb(34, 34, 34) 0%, rgb(27, 27, 27) 30%, rgb(22, 22, 22) 95%);
-}
-.SingleLine{
-    background-color: rgba(255, 255, 255, 0.158);
-    margin: 4px;
-    border-radius: 10px;
-}
-.SingleLine .button{
-    float: right;
-    border-radius: 30px;
-    margin-top: 10px;;
-    padding-left:30px;
-    padding-right:30px;
-    border:none;
-    color:rgb(223, 223, 223);
-    background-image: linear-gradient(180deg, rgb(34, 34, 34) 0%, rgb(27, 27, 27) 30%, rgb(22, 22, 22) 95%);
+.heading {
+  padding: 10px;
+  text-align: center;
+  background-image: linear-gradient(
+    0deg,
+    rgb(34, 34, 34) 0%,
+    rgb(27, 27, 27) 30%,
+    rgb(22, 22, 22) 95%
+  );
 }
 
-button:hover{
-    background-image: linear-gradient(180deg, rgb(43, 43, 43) 0%, rgb(35, 35, 35) 30%, rgb(30, 30, 30) 95%);
+button {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  color: rgb(223, 223, 223);
+  background-image: linear-gradient(
+    180deg,
+    rgb(34, 34, 34) 0%,
+    rgb(27, 27, 27) 30%,
+    rgb(22, 22, 22) 95%
+  );
 }
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.SingleLine {
+  background-color: rgba(255, 255, 255, 0.158);
+  margin: 4px;
+  border-radius: 10px;
+}
+.SingleLine .button {
+  float: right;
+  border-radius: 30px;
+  margin-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  color: rgb(223, 223, 223);
+  background-image: linear-gradient(
+    180deg,
+    rgb(34, 34, 34) 0%,
+    rgb(27, 27, 27) 30%,
+    rgb(22, 22, 22) 95%
+  );
 }
 
-.container .Service{
-    padding:10px;
-    background-color: rgba(255, 255, 255, 0.158);
-    margin-left: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    display: inline-block;
+button:hover {
+  background-image: linear-gradient(
+    180deg,
+    rgb(43, 43, 43) 0%,
+    rgb(35, 35, 35) 30%,
+    rgb(30, 30, 30) 95%
+  );
 }
-.Service h3{
-    padding:10px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.459);
-    color: rgb(219, 219, 219);
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  width: 50%;
 }
 
-.SingleLine{
-    padding: 15px;
+.container .Service {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.158);
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.Service h3 {
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.459);
+  color: rgb(219, 219, 219);
+}
+
+.SingleLine {
+  padding: 15px;
 }
 
 /*Contact Box CSS*/
 
 #contact {
-    width: 50%;
-    border-radius: 5px;
-    background-color:  rgba(255, 255, 255, 0.158);
-    padding: 20px;
-    padding-bottom: 8px;
-    box-shadow: 4px 4px 10px 3px black;
-    margin-bottom: 20px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.158);
+  padding: 20px;
+  padding-bottom: 8px;
+  box-shadow: 4px 4px 10px 3px black;
+  margin-bottom: 20px;
 }
 
-input[type=text], textarea {
-    width: 100%;
-    padding: 12px;
-    border: none;
-    border-radius: 4px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical ;
-    background-color: rgba(0, 0, 0, 0.459);
-    color: white;
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: rgba(0, 0, 0, 0.459);
+  color: white;
 }
 
-input[type=submit] {
-    background-color: #242724;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+input[type="submit"] {
+  background-color: #242724;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: #161b17;
+input[type="submit"]:hover {
+  background-color: #161b17;
+}
+
+footer {
+  background-image: linear-gradient(
+    180deg,
+    rgb(43, 43, 43) 0%,
+    rgb(35, 35, 35) 30%,
+    rgb(30, 30, 30) 95%
+  );
+}
+
+footer p {
+  width: 100%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+footer p a:hover {
+  color: rgb(163, 163, 163);
+}
+
+footer .icons a i {
+  text-align: center;
+  margin-left: 10px;
+  color: white;
+}
+
+footer .icons a i:hover {
+  color: rgb(134, 134, 134);
+}
+
+footer .emailLink {
+  padding-top: 10px;
 }
 
 
-footer{
-    background-image:linear-gradient(180deg, rgb(43, 43, 43) 0%, rgb(35, 35, 35) 30%, rgb(30, 30, 30) 95%);
+/*Responsive Services Bar Styling*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-footer p{
-    width: 100%;
-    color: rgb(255, 255, 255);
-    text-align: center;
+.column {
+  flex: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30%;
 }
 
-footer p a:hover{
-    color: rgb(163, 163, 163);
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
 
-footer .icons a i{
-    text-align: center;
-    margin-left: 10px;
-    color: white;
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-footer .icons a i:hover{
-    color: rgb(134, 134, 134);
-}
-
-footer .emailLink{
-    padding-top: 10px;;
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
