@@ -90,7 +90,6 @@ ul li {
   background-color: rgba(255, 255, 255, 0.158);
   margin-left: 10px;
   margin-bottom: 15px;
-  width: 270px;
   word-wrap: break-word;
   border-radius: 10px;
   display: inline-block;
@@ -179,6 +178,10 @@ button:hover {
 
 .SingleLine {
   padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  width: 50%;
 }
 
 /*Contact Box CSS*/
@@ -187,7 +190,7 @@ button:hover {
   width: 50%;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.158);
-  padding: 20px;
+  padding: 15px;
   padding-bottom: 8px;
   box-shadow: 4px 4px 10px 3px black;
   margin-bottom: 20px;
@@ -195,15 +198,19 @@ button:hover {
 
 input[type="text"],
 textarea {
-  width: 100%;
-  padding: 12px;
+  width: 97%;
+  padding: 10px;
   border: none;
   border-radius: 4px;
   margin-top: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 6px;
   resize: vertical;
   background-color: rgba(0, 0, 0, 0.459);
-  color: white;
+  color: rgb(211, 211, 211);
+}
+
+#message{
+  height: 150px;
 }
 
 input[type="submit"] {
@@ -274,14 +281,74 @@ footer .emailLink {
 
 @media (max-width: 800px) {
   .column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 45%;
+    max-width: 45%;
+  }
+  .SingleLine h3 {
+    font-size: small;
+  }
+  .SingleLine{
+    width: 85%;
+  }
+  .SingleLine .button {
+    float: right;
+    border-radius: 30px;
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  input[type="text"],
+  textarea {
+    width: 95%;
+  }
+  #message{
+    height: 125px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 620px) {
+  .logo{
+    float:none;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .buttons{
+    width: 100%;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .outer {
+    float: none;
+    width: 100%;
+  }
+  .button{
+    font-size: x-small;
+    margin-left: 0px;
+  }
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+  .SingleLine h3 {
+    font-size: x-small;
+  }
+  .SingleLine{
+    width: 85%;
+  }
+  .SingleLine .button {
+    float: right;
+    border-radius: 30px;
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  input[type="text"],
+  textarea {
+    width: 90%;
+  }
+  #message{
+    height: 100px;
   }
 }
