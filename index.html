@@ -17,6 +17,7 @@ C++, C#, python, Web Developer, Game Developer, Graphic Designer .">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/Animated-Typing-With-Blinking.css">
+    <link rel="stylesheet" href="assets/css/Basic-fancyBox-Gallery-v2.css">
     <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
@@ -27,20 +28,26 @@ C++, C#, python, Web Developer, Game Developer, Graphic Designer .">
 
 <body style="font-family: Barlow, sans-serif;">
     <main class="page landing-page">
-        <nav class="navbar navbar-dark navbar-expand-md sticky-top" style="background: rgba(3,0,42,0.39);padding: 10px;">
+        <nav class="navbar navbar-dark navbar-expand-md sticky-top" style="background: rgb(1,0,30);padding: 10px;color: rgba(0,0,0,0.94);">
             <div class="container-fluid"><a class="navbar-brand" data-aos="fade-right" data-aos-duration="500" data-aos-once="true" id="home" href="#" style="font-family: 'Barlow Condensed', sans-serif;">OMER BHATTI</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"
                     style="border-style: none;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
                         <li class="nav-item"><a class="nav-link active" data-bs-hover-animate="pulse" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active" data-bs-hover-animate="pulse" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link active" data-bs-hover-animate="pulse" href="#socials">Socials</a></li>
+                        <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Portfolio</a>
+                            <div class="dropdown-menu" style="background: rgb(4,3,42);"><a class="dropdown-item" href="#portfolio" style="background: #003a56;color: rgb(255,255,255);margin-bottom: 2px;">Game Dev.</a><a class="dropdown-item" href="#portfolio-1" style="background: #003a56;color: rgb(255,255,255);margin-bottom: 2px;">3D Models</a>
+                                <a
+                                    class="dropdown-item" href="#portfolio-2" style="background: #003a56;color: rgb(255,255,255);">Web Apps</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"><a class="nav-link" data-bs-hover-animate="pulse" href="#socials">Socials</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <section class="clean-block clean-hero" style="color: rgba(0,0,0,0.56);background: url(&quot;https://motionarray.imgix.net/preview-173116-makLpVsLAd-high_0004.jpg&quot;) center / cover;width: 100%;filter: blur(0px);height: 105vh;margin-top: -78px;">
-            <div id="particles-js" style="width: 100%;height: 100%;background: rgb(0,0,28);"><script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script></div>
+            <div id="particles-js" style="width: 100%;height: 100%;background: rgb(17,17,64);"><script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script></div>
             <div class="text" style="margin-top: 50px;"><img data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400" data-aos-once="true" src="assets/img/sqrd20190719_221437.png" style="height: 200px;margin-bottom: 50px;border-radius: 50%;">
                 <p style="margin: 0px;font-family: Lato, sans-serif;">Bachelors Of Computer Science</p>
                 <p style="margin: 5px;font-family: Lato, sans-serif;margin-bottom: 10px;font-size: 13px;">Punjab University College of Information Technology<br></p>
@@ -56,52 +63,58 @@ C++, C#, python, Web Developer, Game Developer, Graphic Designer .">
     </h1>
 </div></div><a href="#portfolio" style="margin-top: 0px;"><i class="fa fa-chevron-down front" data-bs-hover-animate="wobble" style="color: rgb(255,255,255);font-size: 32px;margin-top: 100px;"></i></a></div>
         </section>
-        <section id="portfolio" style="padding-top: 60px;padding-bottom: 60px;">
+        <section id="portfolio" style="padding-top: 35vh;padding-bottom: 60vh;background: #1c222f;">
             <div class="container-fluid" style="margin-bottom: 0px;margin-top: 0;">
                 <div class="row">
                     <div class="col">
-                        <h1 style="font-family: Montserrat, sans-serif;font-weight: bold;">PORTFOLIO</h1>
-                        <h2 data-aos="fade-right" style="font-family: 'Barlow Condensed', sans-serif;">Game Development</h2>
+                        <h1 style="font-family: Montserrat, sans-serif;font-weight: bold;color: rgb(255,255,255);">PORTFOLIO</h1>
+                        <h2 data-aos="fade-right" style="font-family: 'Barlow Condensed', sans-serif;color: rgb(255,255,255);">Game Development</h2>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row" style="margin-top: 30px;">
-                    <div class="col"><iframe frameborder="0" src="https://itch.io/embed/703920?border_width=0&amp;bg_color=4f2c51&amp;fg_color=ffffff&amp;link_color=1142d1&amp;border_color=4c415a" width="206" height="165"><a href="https://pixelmotion.itch.io/synth-drive">Synth Drive by OmerBhatti</a></iframe></div>
-                    <div class="col"><iframe frameborder="0" src="https://itch.io/embed/682815?border_width=0&amp;bg_color=4F2C51&amp;link_color=1142D1" width="206" height="165"><a href="https://pixelmotion.itch.io/chrome-dino-run">Chrome Dino Run by OmerBhatti</a></iframe></div>
-                    <div class="col"><iframe frameborder="0" src="https://itch.io/embed/681247?border_width=0&amp;bg_color=4F2C51&amp;link_color=1142D1" width="206" height="165"><a href="https://pixelmotion.itch.io/pong2-0">Pong 2.0 by OmerBhatti</a></iframe></div>
-                    <div class="col"><iframe frameborder="0" src="https://itch.io/embed/739407?border_width=0&amp;bg_color=4F2C51&amp;fg_color=eeeeee&amp;link_color=1142D1&amp;border_color=363636" width="206" height="165"><a href="https://pixelmotion.itch.io/2d-platformer">2D Platformer by OmerBhatti</a></iframe></div>
+                    <div class="col"><iframe frameborder="0" src="https://itch.io/embed/703920?border_width=0&amp;bg_color=000c2c&amp;fg_color=ffffff&amp;link_color=1142d1&amp;border_color=4c415a" width="206" height="165"><a href="https://pixelmotion.itch.io/synth-drive">Synth Drive by OmerBhatti</a></iframe></div>
+                    <div class="col"><iframe frameborder="0" src="https://itch.io/embed/682815?border_width=0&amp;bg_color=000c2c&amp;link_color=1142D1" width="206" height="165"><a href="https://pixelmotion.itch.io/chrome-dino-run">Chrome Dino Run by OmerBhatti</a></iframe></div>
+                    <div class="col"><iframe frameborder="0" src="https://itch.io/embed/681247?border_width=0&amp;bg_color=000c2c&amp;link_color=1142D1" width="206" height="165"><a href="https://pixelmotion.itch.io/pong2-0">Pong 2.0 by OmerBhatti</a></iframe></div>
+                    <div class="col"><iframe frameborder="0" src="https://itch.io/embed/739407?border_width=0&amp;bg_color=000c2c&amp;fg_color=eeeeee&amp;link_color=1142D1&amp;border_color=363636" width="206" height="165"><a href="https://pixelmotion.itch.io/2d-platformer">2D Platformer by OmerBhatti</a></iframe></div>
                 </div>
             </div>
         </section>
-        <section id="portfolio-1" style="padding-top: 60px;padding-bottom: 60px;background: #1e2637;">
+        <section id="portfolio-1" style="padding-top: 10vh;padding-bottom: 20vh;background: #ededed;color: rgb(255,255,255);">
             <div class="container-fluid" style="margin-bottom: 0px;margin-top: 0;">
                 <div class="row">
                     <div class="col">
-                        <h2 data-aos="fade-right" style="font-family: 'Barlow Condensed', sans-serif;color: rgb(255,255,255);">3D Modeling</h2>
+                        <h2 data-aos="fade-right" style="font-family: 'Barlow Condensed', sans-serif;color: rgb(35,35,35);">3D Modeling</h2>
                     </div>
                 </div>
+            </div>
+            <div class="container">
                 <div class="row no-gutters" style="margin-top: 30px;">
                     <div class="col text-center" style="width: 50%;"><div class="sketchfab-embed-wrapper">
-    <iframe title="A 3D model" width="100%" height="450" src="https://sketchfab.com/models/2fd6c9e3480f4596ae7f4625fdcd38d4/embed?autostart=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe title="A 3D model" width="100%" height="500" src="https://sketchfab.com/models/2fd6c9e3480f4596ae7f4625fdcd38d4/embed?autostart=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div></div>
+                </div>
+                <div class="row">
                     <div class="col text-center" style="width: 50%;"><div class="sketchfab-embed-wrapper">
-    <iframe title="A 3D model" width="100%" height="450" src="https://sketchfab.com/models/4df7ccb1d4344829954ec04be943e885/embed?autostart=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+    <iframe title="A 3D model" width="100%" height="500" src="https://sketchfab.com/models/4df7ccb1d4344829954ec04be943e885/embed?autostart=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
 </div>
                 </div>
                 <div class="row">
-                    <div class="col text-center" style="margin-top: 30px;"><a class="text-center" href="https://sketchfab.com/OmerBhatti" style="margin-top: 10px;" target="_blank">View All 3D Models</a></div>
+                    <div class="col text-center" style="margin-top: 30px;"><a class="text-center" href="https://sketchfab.com/OmerBhatti" style="margin-top: 10px;" target="_blank">&nbsp;<button class="btn btn-primary" type="button">Click For More Models</button></a></div>
                 </div>
             </div>
         </section>
-        <section id="portfolio-2" style="padding-top: 10px;padding-bottom: 7px;background: #ffffff;">
-            <div class="container-fluid" style="margin: 0px;">
+        <section id="portfolio-2" style="padding-top: 20vh;padding-bottom: 40vh;background: #d5d5d5;color: rgb(27,46,62);">
+            <div class="container-fluid" style="margin-bottom: 0px;margin-top: 0px;">
                 <div class="row">
                     <div class="col" style="margin-top: 30px;">
-                        <h2 data-aos="fade-right" style="font-family: 'Barlow Condensed', sans-serif;">Projects</h2>
+                        <h2 data-aos="fade-right" style="font-family: 'Barlow Condensed', sans-serif;color: rgb(62,62,62);">Web Apps</h2>
                     </div>
                 </div>
+            </div>
+            <div class="container">
                 <div class="row" style="margin-top: 30px;">
                     <div class="col text-center" style="width: 50%;padding-right: 3px;box-shadow: inset 0px 0px;padding-left: 7px;">
                         <h3 style="background: #000c2c;color: rgb(255,255,255);margin: 0px;padding: 10px;">Hacker Terminal</h3><a href="https://omerbhatti.me/HackerTerminal/" target="_blank"><img src="assets/img/dsfsdfsdf.png" style="width: 100%;"></a></div>
@@ -110,6 +123,61 @@ C++, C#, python, Web Developer, Game Developer, Graphic Designer .">
                 </div>
             </div>
         </section>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="padding: 20px;padding-top: 40px;padding-bottom: 40px;">
+                    <h1>About</h1>
+                    <h4><br>I am a Computer Science student looking forward to learning new skills and technologies even if they are out of the scope of my field.<br><br></h4>
+                    <h4><br>My dream is to become a Computer Scientist.<br><br></h4>
+                </div>
+                <div class="col">
+                    <div style="width: 100%;padding: 20px;padding-top: 40px;padding-bottom: 40px;">
+                        <h1>Skills</h1><div class="progress-div">
+    <div class="progress-title">CSS</div>
+    <div class="progress">
+        <div class="progress-bar bar" role="progressbar" style="width: 85%"></div>
+        <span style="padding:7px">85%</span>
+    </div>
+    <div class="progress-title">HTML</div>
+    <div class="progress">
+        <div class="progress-bar bar" role="progressbar" style="width: 90%"></div>
+        <span style="padding:7px">90%</span>
+    </div>
+    <div class="progress-title">Java Script</div>
+    <div class="progress">
+        <div class="progress-bar bar" role="progressbar" style="width: 75%""></div>
+        <span style="padding:7px">75%</span>
+    </div>
+    <div class="progress-title">C++, C#, python</div>
+    <div class="progress">
+        <div class="progress-bar bar" role="progressbar" style="width: 80%"></div>
+        <span style="padding:7px">80%</span>
+    </div>
+    <div class="progress-title">Unity Engine (2D and 3D)</div>
+    <div class="progress">
+        <div class="progress-bar bar" role="progressbar" style="width: 80%"></div>
+        <span style="padding:7px">80%</span>
+    </div>
+    <div class="progress-title">3D Modeling (blender)</div>
+    <div class="progress">
+        <div class="progress-bar bar" role="progressbar" style="width: 90%""></div>
+        <span style="padding:7px">90%</span>
+    </div>
+    <div class="progress-title">Wordpress</div>
+    <div class="progress">
+        <div class="progress-bar bar" role="progressbar" style="width: 80%"></div>
+        <span style="padding:7px">80%</span>
+    </div>
+    <div class="progress-title">Adobe Softwares (Ps, Ai, Ae etc.)</div>
+    <div class="progress">
+        <div class="progress-bar bar" role="progressbar" style="width: 80%"></div>
+        <span style="padding:7px">80%</span>
+    </div>
+    
+</div></div>
+                </div>
+            </div>
+        </div>
         <footer id="footerpad" style="background: rgb(1,0,30);padding-top: 20px;">
             <div class="container">
                 <div class="row">
@@ -122,7 +190,7 @@ C++, C#, python, Web Developer, Game Developer, Graphic Designer .">
                         <ul class="list-inline text-center">
                             <li class="list-inline-item"><a href="https://github.com/omerBhatti" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-github fa-stack-1x fa-inverse"></i></span></a></li>
                             <li class="list-inline-item"><a href="https://www.instagram.com/__omerbhatti__/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
-                            <li class="list-inline-item"><a href="https://sketchfab.com/OmerBhatti" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fas fa-cube fa-stack-1x fa-inverse"></i></span></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/m-omer-sharif-bhatti-8643661b7/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fab fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
                             <li class="list-inline-item"><a href="https://pixelmotion.itch.io/" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fab fa-itch-io fa-stack-1x fa-inverse"></i></span></a></li>
                         </ul><p style="color:rgb(188,188,188)" class="copyright text-center">Copyright &copy; PixelMotion 2020 | <a style="text-decoration:none;font-weight:700" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=omerbhatti34@gmail.com" target="_blank">omerbhatti34@gmail.com</a></p></div>
                 </div>
