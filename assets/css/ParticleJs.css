@@ -1,0 +1,10 @@
+#particles-js {
+  position: absolute;
+  background-color: rgb(0,0,40);
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  z-index: -1;
+}
+
