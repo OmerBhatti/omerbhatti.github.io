@@ -1,0 +1,10 @@
+.col.siteLink {
+  box-shadow: 2px 2px 5px 0px rgb(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.zoom:hover {
+  transition: 0.5s ease;
+  transform: scale(1.02);
+}
+
